@@ -15,7 +15,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
-        android:text="TextView"
+        android:text="The message at the top left will tell you what color of object to take in a photo. Get points based on how well it matches!"
         android:textColor="@android:color/background_light"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
