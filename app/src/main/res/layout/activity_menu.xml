@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#aed8fa"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/courgette"
+        android:text="SPY"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+        android:textColor="@android:color/white"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/menuBtn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hTPBtn"
+        android:layout_alignStart="@+id/hTPBtn"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="61dp"
+        android:background="#ccecff"
+        android:onClick="camera"
+        android:text="Play"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/hTPBtn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#ccecff"
+        android:onClick="how"
+        android:text="How To Play"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/aboutBtn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignLeft="@+id/hTPBtn"
+        android:layout_alignStart="@+id/hTPBtn"
+        android:layout_below="@+id/hTPBtn"
+        android:layout_marginTop="36dp"
+        android:background="#ccecff"
+        android:onClick="about"
+        android:text="About"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginLeft="83dp"
+        android:layout_marginStart="83dp"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+</RelativeLayout>

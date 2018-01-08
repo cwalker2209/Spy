@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aed8fa"
+    tools:context="com.example.cwalker2209.spy.AboutActivity">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="131dp"
+            android:text="Made by Curtis Walker, Malik Pecco, and Brandon Lalonde"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
+
